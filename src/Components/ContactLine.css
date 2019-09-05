@@ -8,18 +8,24 @@ div.contact-line {
     border-bottom: 1px solid white;
 }
 
-div.contact-line img {
-    margin-left: 20px;
-}
-
 div.contact-line p {
-    margin-left: 20px;
     font-size: 20px;
 }
 
 div.btns a {
     margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
 }
+
+div.btns a:visited {
+    color: black;
+} 
+
+div.btns a:hover {
+    color: #3A395A;
+} 
 
 div.btns {
     text-align: end;

@@ -28,7 +28,7 @@ input {
     color: #3A395A;
 }
 
-button {
+button.add-contact-btn {
     align-self: flex-start;
     height: 40px;
     width: 150px;
