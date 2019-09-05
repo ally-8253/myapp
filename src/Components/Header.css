@@ -1,0 +1,38 @@
+div.header {
+    width: 100%;
+    height: 100px;
+    background-color: #3A395A;
+    color: white;
+}
+
+div.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: #B0B0C1;
+    text-transform: uppercase;
+    border: solid 2px #B0B0C1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
