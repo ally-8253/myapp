@@ -28,4 +28,14 @@ let state = {
     ]
 }
 
+export let AddContact = (name, phone) => {
+    let newContact = {
+        id: 6,
+        name: name,
+        phone: phone
+    };
+
+    state.contacts.push(newContact);
+}
+
 export default state;

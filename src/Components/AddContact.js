@@ -2,14 +2,14 @@ import React from 'react';
 import './AddContact.css';
 import { declareExportAllDeclaration } from '@babel/types';
 
-function AddContact() {
+function AddContact(props) {
     let newContactName = React.createRef();
     let newContactPhone = React.createRef();
 
     let addContact = () => {
         let name = newContactName.current.value;
         let phone = newContactPhone.current.value;
-        alert(name + phone);
+        props.AddContact(name, phone);
     };
 
     return (
