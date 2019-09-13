@@ -1,6 +1,8 @@
 import React from 'react';
 import './AddContact.css';
 import { declareExportAllDeclaration } from '@babel/types';
+import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 function AddContact(props) {
     let newContactName = React.createRef();
@@ -19,7 +21,9 @@ function AddContact(props) {
                     <input ref={newContactName} id="name" placeholder="Enter name of contact" />
                     <input ref={newContactPhone} id="phone" placeholder="Enter phone number of contact" />
                 </form>
-                <button onClick={addContact} className="add-contact-btn">Add contact</button>
+                <button onClick={addContact} className="add-contact-btn">
+                    <NavLink className="navlink" to="/contact-list">Add contact</NavLink>
+                </button>
             </div>
         </div>
     );

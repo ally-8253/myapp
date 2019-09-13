@@ -40,3 +40,12 @@ button.add-contact-btn {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+.navlink {
+    text-decoration: none;
+}
+
+.navlink:visited {
+    color: white;
+    text-decoration: none;
+} 
