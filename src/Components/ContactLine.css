@@ -17,6 +17,7 @@ div.btns a {
     cursor: pointer;
     text-decoration: none;
     padding: 5px 10px;
+    color: black;
 }
 
 div.btns a:visited {

@@ -12,6 +12,8 @@ function AddContact(props) {
         let name = newContactName.current.value;
         let phone = newContactPhone.current.value;
         props.AddContact(name, phone);
+        newContactName.current.value = '';
+        newContactPhone.current.value = '';
     };
 
     return (

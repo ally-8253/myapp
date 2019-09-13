@@ -12,7 +12,7 @@ function ContactLine(props) {
             <p>{props.phone}</p>
             <div className="btns">
                 <NavLink to="/edit-contact">Edit</NavLink>
-                <a onClick={deleteContact} className="delete-btn">Delete</a>
+                <a href='#' onClick={deleteContact} className="delete-btn">Delete</a>
             </div>
         </div>
     );

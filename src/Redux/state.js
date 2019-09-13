@@ -1,3 +1,5 @@
+import { rerenderEntireTree } from "../render";
+
 let state = {
     contacts: [
         {
@@ -36,6 +38,7 @@ export let AddContact = (name, phone) => {
     };
 
     state.contacts.push(newContact);
+    rerenderEntireTree(state);
 }
 
 export default state;
